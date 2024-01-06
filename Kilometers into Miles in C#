@@ -1,0 +1,17 @@
+Console.WriteLine("-------->Kilometers into Meters<--------");
+Console.WriteLine("       -------->BY BIOZFROG<--------\n");
+
+
+// Accessing the Speed in Kilometers per hour
+Console.WriteLine("Enter the Speed in Kmph: ");
+double kilometers = Convert.ToDouble(Console.ReadLine());
+
+// Initializing other Speed units
+double meters = kilometers / 3.6;
+double miles = kilometers / 1.609;
+
+// Displaying the Results
+Console.WriteLine("\nYour Speed is: ");
+Console.WriteLine("Kilometers: {0:F3}km", kilometers);
+Console.WriteLine("Meters: {0:F3}m", meters);
+Console.WriteLine("Miles: {0:F3}mi", miles);
